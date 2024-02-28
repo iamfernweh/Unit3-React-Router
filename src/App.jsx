@@ -3,6 +3,7 @@ import './App.css';
 import Blue from './components/Blue';
 import Red from './components/Red';
 import Home from './components/Home';
+import Nav from './components/Nav';
 
 function App() {
 
@@ -11,11 +12,7 @@ function App() {
     <>
       <div id="container">
         <h1>Hello React Router!</h1>
-        <div id="navbar">
-          <Link to='/'>Home</Link>
-          <Link to='/red'>Red</Link>
-          <Link to='/blue'>Blue</Link>
-        </div>
+        <Nav />
         <div id="main-section">
           <Routes>
             <Route path='/' element={<Home />} />
