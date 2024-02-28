@@ -49,3 +49,19 @@ body>div {
   background-color: green;
   color: white;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(230, 226, 226);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer a {
+  justify-content: space-evenly;
+  padding: 2em;
+}
