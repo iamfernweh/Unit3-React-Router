@@ -1,1 +1,1 @@
-[moonlit-paletas-7181cc.netlify.app]moonlit-paletas-7181cc.netlify.app
+https://moonlit-paletas-7181cc.netlify.app/
