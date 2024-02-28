@@ -19,7 +19,7 @@ function App() {
             <Route path='/red' element={<Red />} />
           </Routes>
         </div>
-        <div class='footer'>
+        <div className='footer'>
           <Nav />
         </div>
       </div>
