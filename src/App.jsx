@@ -12,7 +12,6 @@ function App() {
     <>
       <div id="container">
         <h1>Hello React Router!</h1>
-        <Nav />
         <div id="main-section">
           <Routes>
             <Route path='/' element={<Home />} />
